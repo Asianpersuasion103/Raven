@@ -1,23 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raven Log-In</title>
     <link rel="stylesheet" href="styles.css">
+
+
+ <!--- CSS HERE --->    
+  <style>
+
+    body{
+      padding: 2em;
+      margin: 1em; 
+      font-family: Montserrat, sans-serif; 
+      font-size: 12px;
+    }
+
+    .firstContainer{
+    background-color: #6fdefc;
+    background: linear-gradient(to right, #b5eff6, #18c2d6);
+    border-radius: 30px;  
+    }
+
+    .secondContainer{
+      padding: 1em;
+      margin: 2em;
+      
+    }
+
+
+
+
+
+  </style> 
+ <!--- CSS HERE --->    
   </head>
 
+
 <body>
-  <div class="first container">
-    <div class="second container">
+  <div class="firstContainer">
+    <div class="secondContainer">
       <h1>Sign In</h1>
-      <form>
+      <form id="f1">
         <input type="text" placeholder="Name">
         <input type="text" placeholder="Email">
         <button> Sign-in </button>
       </form>
 
-      <h1>Sign Up</h1>
+      <h1>Create Your Account</h1>
 
       <i class="fa-brands fa-google"></i> 
       <i class="fa-brands fa-facebook"></i> 
@@ -26,7 +60,7 @@
       <i class="fa-brands fa-github"></i> 
 
 
-      <form>
+      <form id="f2">
         <input type="text" placeholder="Name">
         <input type="text" placeholder="Email">
         <input type="text" placeholder="Enter Password">
