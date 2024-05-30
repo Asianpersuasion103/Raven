@@ -1,38 +1,37 @@
-<!-- home_logged_in.html -->
-{% extends 'base.html' %}
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<div class="Home_not_login"></div>
-</head>
-{% block content %}
-  <h2>Welcome, {{ user.username }}!</h2>
-  <!-- Other personalized content for logged-in users -->
-{% endblock %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raven Log-In</title>
-    <form id = "login-form">
-      <label for ="username">Username:</label>
-      <input type="text" id = "username" name = "username" required>
-      <label for = "text" id ="username" name="password" requirex>
-        <label for =' password'>Password:</label>
-        <input type = " passpword" id ="password" name="password" required>
-        <button type="button" onlick="submitForm()"> Login</button>
-  
-         <script src="login.js"></script>
-        
-
-    </form>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
 
 <body>
+  <div class="first container">
+    <div class="second container">
+      <h1>Sign In</h1>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email">
+        <button> Sign-in </button>
+      </form>
 
-    <!-- Your content goes here -->
+      <h2>Sign Up</h2>
+      <i class="fa-brands fa-google"></i> 
 
-    <script>
-        // Your JavaScript code goes here
-    </script>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Enter Password">
+        <input type="text" placeholder="Confirm Password">
+        <button>Create An Account</button>
+      </form>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script> 
 
 </body>
 </html>
