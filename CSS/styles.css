@@ -1,18 +1,59 @@
 body{
-    padding: 2em;
-    margin: 1em; 
-    font-family: Montserrat, sans-serif; 
-    font-size: 12px;
-  }
+    padding:3em;
+    margin:10em; 
+}
 
-  .firstContainer{
-  background-color: #6fdefc;
-  background: linear-gradient(to right, #86d2da, #04a0b1);
-  border-radius: 30px;  
-  }
+h1{
+    text-align: center; 
+} 
 
-  .secondContainer{
+span{
+    justify-content: center; 
+    align-items: center; 
+}
+
+.firstContainer{
+    border: 5px solid black; 
+    background: linear-gradient(white, rgb(82, 132, 206), lightgray);
+    border-radius: 10rem; 
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center; 
+    align-items: center; 
+    width: 500px;
     padding: 1em;
-    margin: 2em;
-    color: #b8f6fd;
-  }
+    margin: 1em; 
+    background-color: pink;  
+}
+
+.secondContainer{
+    border-radius: 10rem; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    flex-direction: column;  
+    font-size: 14px; 
+    padding: 1rem;
+    margin: 1em;
+    background-color: lightblue; 
+    opacity: 0px;
+}
+
+.thirdContainer{  
+    border-radius: 10rem; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    padding: 1em; 
+    margin: 1em;
+    background-color: lightblue; 
+}
+form{
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+}
