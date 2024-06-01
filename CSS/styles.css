@@ -1,7 +1,8 @@
 body{
     padding: 20em;
     margin: 10em; 
-    background-image: url(https://wallpapercave.com/w/wp6501320#google_vignette)
+    background-image: url("wp6501320-sunset-aesthetic-computer-wallpapers.jpg"); 
+    background-size: auto 100%; 
 }
 
 h1{
@@ -15,10 +16,10 @@ span{
 }
 
 .firstContainer{
-    box-shadow: 5px 5px 5px 6px rgb(151, 151, 151);
-    font-family: Montserrat, sans-serif; 
+    box-shadow: 5px 5px 5px 6px rgb(33, 33, 33);
+    font-family: 'Montserrat', sans-serif; 
     border: 5px solid white; 
-    background: linear-gradient(white, rgb(82, 132, 206), lightgray);
+    background: linear-gradient(white, #8db7f7, lightgray);
     border-radius: 10em; 
     position: absolute; 
     top: 50%;
@@ -44,7 +45,7 @@ span{
     padding: 1rem;
     margin: 1em;
     mix-blend-mode: hard-light; 
-    background: linear-gradient(rgb(255, 255, 255), rgb(82, 132, 206));
+    background: linear-gradient(white, #b6d3ff);
 }
 
 .thirdContainer{  
@@ -59,33 +60,50 @@ span{
     padding: 1em; 
     margin: 1em;
     mix-blend-mode: hard-light;
-    background: linear-gradient(white, rgb(46, 98, 176));
+    background: linear-gradient(white, rgb(174, 205, 255));
 }
-form{
-    outline: black; 
-    color: black;
+form input{
     font-size: 14px; 
     justify-content: center; 
     align-items: center; 
     display: flex;
     flex-direction: column;
+    padding: .3em; 
+    margin: .4em;
+    outline: 0;
+    background: transparent; 
+    border: none;
+    border-bottom: 2.5px solid rgb(0, 0, 0); 
+}
 
-    input{
-        box-shadow: 2px 2px 2px 3px rgb(59, 59, 59);
-        border-radius: 1em;
-        border: 0; 
-        padding: 1em; 
-        margin: 0.4em;
-        color: white;
-        text-decoration: none; 
-    }
+a{
+    list-style: none;
+    text-decoration: none; 
+    color: white; 
 }
 
 button{
-    border: 0;
+    font-size: 13px;
+    border: none; 
     border-radius: 3em;  
     margin: 1em;
     width: 10em;
     height: 3em; 
+    color: white; 
+    background-color: black; 
+    letter-spacing: .2em;
+    transition: .5s; 
+    list-style: none;
+}
+button{
+    color: none; 
 }
 
+button:hover{
+    border-radius: 10em 5em 11em 5em; 
+    width: 11.5em;
+    border: 2px solid #5fc4ff; 
+    font-size: 15px; 
+    background-color: rgb(0, 59, 88); 
+    color: rgb(255, 255, 255)
+}
