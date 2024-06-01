@@ -1,6 +1,7 @@
 body{
-    padding:3em;
-    margin:10em; 
+    padding: 20em;
+    margin: 10em; 
+    background-image: url(https://wallpapercave.com/w/wp6501320#google_vignette)
 }
 
 h1{
@@ -10,12 +11,15 @@ h1{
 span{
     justify-content: center; 
     align-items: center; 
+    padding: .5em;
 }
 
 .firstContainer{
-    border: 5px solid black; 
+    box-shadow: 5px 5px 5px 6px rgb(151, 151, 151);
+    font-family: Montserrat, sans-serif; 
+    border: 5px solid white; 
     background: linear-gradient(white, rgb(82, 132, 206), lightgray);
-    border-radius: 10rem; 
+    border-radius: 10em; 
     position: absolute; 
     top: 50%;
     left: 50%;
@@ -29,7 +33,9 @@ span{
 }
 
 .secondContainer{
-    border-radius: 10rem; 
+    box-shadow: 5px 5px 5px 6px rgb(72, 72, 72);
+    border: 2px solid white; 
+    border-radius: 10em; 
     justify-content: center; 
     align-items: center; 
     display: flex;
@@ -37,23 +43,49 @@ span{
     font-size: 14px; 
     padding: 1rem;
     margin: 1em;
-    background-color: lightblue; 
-    opacity: 0px;
+    mix-blend-mode: hard-light; 
+    background: linear-gradient(rgb(255, 255, 255), rgb(82, 132, 206));
 }
 
 .thirdContainer{  
-    border-radius: 10rem; 
+    box-shadow: 5px 5px 5px 6px rgb(53, 53, 53);
+    border: 2px solid white; 
+    border-radius: 10em; 
     justify-content: center; 
     align-items: center; 
     display: flex;
     flex-direction: column;
+    font-size: 14px; 
     padding: 1em; 
     margin: 1em;
-    background-color: lightblue; 
+    mix-blend-mode: hard-light;
+    background: linear-gradient(white, rgb(46, 98, 176));
 }
 form{
+    outline: black; 
+    color: black;
+    font-size: 14px; 
     justify-content: center; 
     align-items: center; 
     display: flex;
     flex-direction: column;
+
+    input{
+        box-shadow: 2px 2px 2px 3px rgb(59, 59, 59);
+        border-radius: 1em;
+        border: 0; 
+        padding: 1em; 
+        margin: 0.4em;
+        color: white;
+        text-decoration: none; 
+    }
 }
+
+button{
+    border: 0;
+    border-radius: 3em;  
+    margin: 1em;
+    width: 10em;
+    height: 3em; 
+}
+
