@@ -7,6 +7,7 @@ body{
 
 h1{
     text-align: center; 
+    color: #043242; 
 } 
 
 span{
@@ -19,7 +20,7 @@ span{
     box-shadow: 5px 5px 5px 6px rgb(33, 33, 33);
     font-family: 'Montserrat', sans-serif; 
     border: 5px solid white; 
-    background: linear-gradient(white, #8db7f7, lightgray);
+    background: linear-gradient(white, #4ca0c7, rgb(10, 82, 130));
     border-radius: 10em; 
     position: absolute; 
     top: 50%;
@@ -45,7 +46,12 @@ span{
     padding: 1rem;
     margin: 1em;
     mix-blend-mode: hard-light; 
-    background: linear-gradient(white, #b6d3ff);
+    background: linear-gradient(rgb(171, 170, 170), rgb(39, 118, 168), #1267e5);
+}
+
+.thirdContainer{
+    background: linear-gradient(rgb(255, 255, 255), rgb(39, 118, 168), #1267e5);
+
 }
 
 form input{
@@ -59,13 +65,27 @@ form input{
     outline: 0;
     background: transparent; 
     border: none;
-    border-bottom: 2.5px solid rgb(0, 0, 0); 
+    border-bottom: 2.5px solid rgb(255, 255, 255); 
 }
 
 a{
     list-style: none;
     text-decoration: none; 
     color: white; 
+}
+
+label{
+    color: white;
+    letter-spacing: .1em;
+}
+
+span{
+    color: white; 
+}
+
+::placeholder{
+    color: white; 
+    letter-spacing: .1em; 
 }
 
 button{
@@ -76,20 +96,17 @@ button{
     width: 10em;
     height: 3em; 
     color: white; 
-    background-color: black; 
+    background-color: rgb(60, 168, 231); 
     letter-spacing: .2em;
     transition: .5s; 
     list-style: none;
 }
+
 button{
     color: none; 
 }
 
 button:hover{
-    border-radius: 10em 5em 11em 5em; 
-    width: 11.5em;
-    border: 2px solid #5fc4ff; 
-    font-size: 15px; 
-    background-color: rgb(0, 59, 88); 
-    color: rgb(255, 255, 255)
+    transform: scale(1.23);
+    border-radius: 15px 4px;
 }
