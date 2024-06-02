@@ -20,7 +20,7 @@ span{
     box-shadow: 5px 5px 5px 6px rgb(33, 33, 33);
     font-family: 'Montserrat', sans-serif; 
     border: 5px solid white; 
-    background: linear-gradient(white, #4ca0c7, rgb(10, 82, 130));
+    background: linear-gradient(white, #6cc3eb, rgb(33, 138, 208));
     border-radius: 10em; 
     position: absolute; 
     top: 50%;
@@ -46,12 +46,11 @@ span{
     padding: 1rem;
     margin: 1em;
     mix-blend-mode: hard-light; 
-    background: linear-gradient(rgb(171, 170, 170), rgb(39, 118, 168), #1267e5);
+    background: linear-gradient(rgb(142, 141, 141), rgb(39, 118, 168), #1267e5);
 }
 
 .thirdContainer{
-    background: linear-gradient(rgb(255, 255, 255), rgb(39, 118, 168), #1267e5);
-
+    background: linear-gradient(rgb(204, 204, 204), rgb(64, 157, 214), #1267e5);
 }
 
 form input{
@@ -109,4 +108,8 @@ button{
 button:hover{
     transform: scale(1.23);
     border-radius: 15px 4px;
+}
+
+.covers{
+    color: white; 
 }
