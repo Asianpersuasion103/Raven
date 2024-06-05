@@ -1,7 +1,7 @@
 <?php
 
 
-$dsn = "mysql:host=localhost;dbname=myfirstdatabase";\
+$dsn = "mysql:host=localhost;dbname=RavenLocal_server";\
 $dbusername="root";
 $user_name="username";
 $dbpassword="root";
