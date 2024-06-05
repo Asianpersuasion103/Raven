@@ -1,4 +1,4 @@
-<?php /
+<?php 
 $username="usename";
 $password="password";
 $email="email";
