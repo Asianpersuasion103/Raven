@@ -1,174 +1,189 @@
 body{
-    padding: 20em;
-    margin: 10em; 
-    background-image: url("wp6501320-sunset-aesthetic-computer-wallpapers.jpg"); 
-    background-size: auto 100%; 
-}
-
-h1{
-    text-align: center; 
-    color: #043242; 
-} 
-
-span{
-    justify-content: center; 
-    align-items: center; 
-    padding: .5em;
+    padding: 1em;
+    margin: 1em;
+    background-color: lightgray;
 }
 
 .firstContainer{
-    box-shadow: 6px 6px 6px 6px rgb(33, 33, 33);
-    font-family: 'Montserrat', sans-serif; 
-    border: 5px solid white; 
-    background: linear-gradient(white, #6cc3eb, rgb(33, 138, 208));
-    border-radius: 10em; 
-    position: absolute; 
+    position: absolute;
+    overflow: hidden;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    justify-content: center; 
-    align-items: center; 
-    width: 500px;
-    padding: 1em;
-    margin: 1em; 
-    background-color: pink;
+    padding: 2em;
+    margin: 2em;
+    width: 50em;
+    height: 50em;
+   
 }
 
 .secondContainer{
-    box-shadow: 6px 6px 6px 6px rgb(72, 72, 72);
-    border: 2px solid white; 
-    border-radius: 10em 10em 10em 10em ; 
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     display: flex;
-    flex-direction: column;  
-    font-size: 14px; 
-    padding: 1rem;
-    margin: 1em;
-    mix-blend-mode: hard-light; 
-    background: linear-gradient(rgb(142, 141, 141), rgb(39, 118, 168), #1267e5);
+    flex-direction: column; 
+    background-color: white;
+    border: 10em; 
+    border-radius: 5em 15em;
 }
 
-.thirdContainer{
-    box-shadow: 6px 6px 6px 6px rgb(72, 72, 72);
-    border: 2px solid white; 
-    border-radius: 10em 10em 10em 10em ; 
-    justify-content: center; 
-    align-items: center; 
-    display: flex;
-    flex-direction: column;  
-    font-size: 14px; 
-    padding: 1em;
-    margin: 1em;
-    mix-blend-mode: hard-light; 
-    background: linear-gradient(rgb(204, 204, 204), rgb(64, 157, 214), #1267e5);
+h1{
+    text-align: center;
+    margin: .5em;
 }
 
-form input{
-    font-size: 14px; 
-    justify-content: center; 
-    align-items: center; 
+form{
+    justify-content: center;
+    align-items: center;
     display: flex;
-    flex-direction: column;
-    padding: .3em; 
-    margin: .4em;
-    outline: 0;
-    background: transparent; 
-    border: none;
-    border-bottom: 2.5px solid rgb(255, 255, 255); 
-}
-
-a{
-    list-style: none;
-    text-decoration: none; 
-    color: white; 
+    flex-direction: column; 
+    margin: 1em; 
 }
 
 label{
-    color: white;
-    letter-spacing: .1em;
-}
-
-span{
-    color: white; 
-}
-
-::placeholder{
-    color: white; 
-    letter-spacing: .1em; 
+    flex-direction: column;
+    margin: .5em; 
+    padding: .5em;
 }
 
 button{
-    font-size: 13px;
-    border: none; 
-    border-radius: 3em;  
-    margin: 1em;
-    width: 10em;
-    height: 3em; 
-    color: white; 
-    background-color: rgb(60, 168, 231); 
-    letter-spacing: .2em;
-    transition: .5s; 
-    list-style: none;
+    padding: .3em;
+    margin: .5em;
+   
 }
 
-button{
-    color: none; 
+.login .signup{
+    padding: 5em; 
 }
 
-button:hover{
-    transform: scale(1.23);
-    border-radius: 15px 4px;
-}
-
-.covers{
-    color: white; 
-}
-
-.toggleTop{
-    background-color: lightgray; 
-    position: absolute;
-    justify-content: center; 
-    align-content: center; 
-    display: flex;
-    flex-direction: column;  
-    font-size: 14px;
-    z-index: 0; 
-    border-radius: 10em 10em 10em 10em;
-
-    .CC1{
-        background-color: lightgray;
-        padding: 4em; 
-        margin: 3em; 
-    }
-    .CC2{
-        background-color: lightgray;
-        padding-bottom: 5em;
-        margin: 10em; 
-    }
-}
-
-.Register{
-    right: 0;
-    width: 50%;
+.login{
     z-index: 1;
+    left: 50%;
+    top: 0;
     opacity: 0;
 }
 
-.firstContainer.active .Register{
-    transform: translateY(100%); 
-}
-
-.Login{
-    right: 0;
-    width: 50%;
-    z-index: 2;
-}
-
-.firstContainer.active .Login{
-    opacity: 1;
-    z-index: 4;
-    animation: all 0.5s ease-in-out;
+.secondContainer.active .login{
     transform: translateY(100%);
 }
+
+.signup{
+    z-index: 3;
+    top: 100%;
+    animation: motion 0.5s;
+}
+
+.secondContainer.active .signup{
+    transform: translateY(100%)
+}
+
+.firstContainer .adjusterContainer.active{
+    transform: translateY(-100%);
+}
+
+.adjustContainer{
+    overflow: hidden; 
+    position: absolute; 
+    top: 30.8%;
+    left: 50%;
+    width: 0%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-in-out; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; 
+}
+.adjusterPanels{
+    transform: translate(55%);
+}
+.adjusterPanels{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-content: center; 
+    position: relative; 
+    height: 200%;
+    width: 100%;
+    left: 200%;
+    transform: translateY(0);
+    transition: all 0.5s ease-in-out; 
+}
+
+.adjustForMovement{
+    background-color: gray;
+}
+
+
+
+.activeTop{
+    margin: 2em;
+    flex-direction: column;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+    span{
+        align-items: center;
+    }
+}
+
+.activeBottom{
+    margin: 1.5em;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    button{
+        left: 50%;
+    }
+  
+    span{
+        align-items: center; 
+    }
+}
+
+.activeTop{
+    transform: translateY(-200%);
+}
+
+.adjustForMovement.active .activeTop{
+    transform: translateY(0); 
+}
+
+.activeBottom{
+    transform: translateY(0);
+}
+
+.adjustForMovement.active .activeBottom{
+    bottom: 0; 
+    transform: translateY(-200%)
+}
+
+
+@keyframes motion{
+    0%{
+        opacity: 0;
+        z-index: 1; 
+    }
+    25%{
+        opacity: 0.5;
+        z-index: 1.5; 
+    }
+    50%{
+        opacity: 1;
+        z-index: 2.5;
+    }
+    100%{
+        opacity: 2;
+        z-index: 4; 
+    }
+}
+
+
+
+
 
