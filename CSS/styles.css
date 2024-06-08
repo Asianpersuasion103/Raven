@@ -124,9 +124,7 @@ button{
     justify-content: center;
     align-items: center;
 
-    span{
-        align-items: center;
-    }
+
 }
 
 .activeBottom{
@@ -136,14 +134,6 @@ button{
     justify-content: center;
     align-items: center;
 
-
-    button{
-        left: 50%;
-    }
-  
-    span{
-        align-items: center; 
-    }
 }
 
 .activeTop{
