@@ -8,7 +8,7 @@ body{
 }
 
 .firstContainer { 
-    background: linear-gradient(rgb(154, 204, 252), rgb(122, 178, 252), rgb(142, 185, 255), rgb(255, 255, 255)); 
+    background: linear-gradient(rgb(45, 130, 211), rgb(87, 143, 233), rgb(255, 255, 255)); 
     padding: 1em; 
     margin: 2em; 
     width: 600px;
@@ -24,7 +24,7 @@ h1{
     justify-content: center;
     display: flex; 
     font-size: 35px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-weight: 200;
 }
 
@@ -88,31 +88,52 @@ label .register{
     }
 }
 
+.subContainerOne{
+    margin: 2em;
+    text-decoration: none;
+}
+
 .socials a{
     margin-right: 1vh;
 }
 
-button{
-    top: 40%;
-    outline: none;
-    border: none;
-    padding: 5px;
-    border-radius: 25em;
-    letter-spacing: 1px;
-    margin: 1em;
-    padding: .5em 1em;
-    transition: transform 0.3s ease-in-out;
-    
-    a{
-        text-decoration: none;
-   
-    }
+.btn1{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    margin: -2em;
+    top: 20rem;
+    text-decoration: none;
 }
 
-button:hover{
-    transform: scale(1);
-    letter-spacing: 2px;
-    border-radius: 20em 10em;
-    font-size: 15px;
+a{
+    text-decoration: none;
+}
+
+button{
+    position: fixed;
+    border: none;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 25em;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    text-decoration: none;
     
+   
+}
+
+
+button:hover{
+    border: 2px solid white; 
+    border-radius: 25em 10em;
+    transform: scale(1.5);
+    letter-spacing: 2px;
+    border: none;
+    background-color: rgb(102, 208, 226);
+
+    a{
+        color: white;
+    }
 }
