@@ -3,8 +3,9 @@ $username="usename";
 $password="password";
 $email="email";
 $servername="servername";
+$database="RavenLocal_server"
 
-$coon =  new mysqli("sss",$username,$email,$password);
+$coon =  new mysqli($servername,$username,$email,$password);
 if( $coon -> connect_error){
  die ( " connnedtion failed", $coon -> connect_error);
 
@@ -19,7 +20,7 @@ $stmt=excecute();
 $results= $stmt->get_results();
 
 if(results->row_colm>0){
-    echo " this users is alrady takern"
+    echo " this users is alrady taken"
     else {
         sql=" INSERT into user (username,password) VALUES ('username','password')";
         if(coon ->query($sql)==true){
