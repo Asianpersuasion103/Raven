@@ -94,6 +94,7 @@ label .register{
 
 .subContainerOne{
     margin: 2em;
+    position: absolute;
     text-decoration: none;
     padding: .6em;
 }
@@ -104,17 +105,18 @@ label .register{
     padding: 12px;
 }
 
-.btn1{
-    position: absolute;
+
+.login-btn{
     justify-content: center;
     align-items: center;
     display: flex; 
     text-decoration: none;
-    margin: -2em -2.38em;
     top: 48%;
+    margin: -2em -2.38em;
     letter-spacing: 2px;
     background-color: rgb(255, 255, 255);
     border: 1px solid white;
+    margin-top: -29em; 
 }
 
 .btn1 a{
@@ -124,12 +126,12 @@ label .register{
 }
 
 button{
-    height: 30px; 
-    width: 60px;
+    height: 100px; 
+    width: 100px;
     justify-content: center;
     align-items: center;
     display: flex;
-    position: absolute;
+    position: relative; 
     border: none;
     padding: 5px;
     font-size: 12px;
