@@ -102,12 +102,12 @@ label .register{
     justify-content: center;
     align-items: center;
     display: flex; 
-    margin: -2em;
+    margin: -1.92em;
     top: 20rem;
     text-decoration: none;
 }
 
-a{
+.btn1 a{
     text-decoration: none;
 }
 
@@ -120,8 +120,7 @@ button{
     letter-spacing: 1px;
     transition: 0.5s;
     text-decoration: none;
-    
-   
+
 }
 
 
